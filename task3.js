@@ -1,4 +1,4 @@
-let w = 'Word';
+let word = 'Word';
 
-let word = w.split('').reverse().join('');
-console.log(word);
+let w = w.split('').reverse().join('');
+console.log(w);
