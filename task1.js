@@ -1,9 +1,9 @@
 let val = prompt();
 let num = +val;
 
-if(typeof(num) !== "string"){
+if(typeof num !== "string"){
   console.log((parseInt(num)%2==0)?'Число чётное':'Число нечётное');
-}else if(typeof(num) !== "number"){
+}else if(typeof num !== "number"){
   console.log('Упс, кажется, вы ошиблись');
 };
 
