@@ -8,4 +8,5 @@ if(typeof num !== "string"){
 };
 
 let notNum = isNaN(num) ? 'Число NaN' : 'Число не NaN';
+
 console.log(notNum);
