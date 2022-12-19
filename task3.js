@@ -1,5 +1,5 @@
 let word = 'Word';
 
-let w = w.split('').reverse().join('');
+let w = word.split('').reverse().join('');
 
 console.log(w);
